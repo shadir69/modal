@@ -4,10 +4,15 @@ let container = document.createElement("div");
 container.setAttribute("id", "overlay");
 let modal = document.createElement("div");
 modal.setAttribute("id", "modal");
-
-//add buttons in every row of table 
+let checkUser;
+if (window.location.href.includes("/validation/orders")) {
+  checkUser = 3;
+} else {
+  checkUser = 2;
+}
+//add buttons in every row of table
 for (let i = 1; i < table.rows.length; i++) {
-  let td = table.rows[i].children[2];
+  let td = table.rows[i].children[checkUser];
   let text = td.textContent;
   let phoneNumber = text.match(/(\d){10}/)[0];
   let button = document.createElement("button");
@@ -18,7 +23,7 @@ for (let i = 1; i < table.rows.length; i++) {
   td.style = "color:#01BEA8;font-weight: bold";
   td.appendChild(button);
 
-  // button when clicked send phone number to server 
+  // button when clicked send phone number to server
   button.addEventListener("click", function () {
     fetch("http://localhost:8808/api", {
       method: "POST",
@@ -29,9 +34,11 @@ for (let i = 1; i < table.rows.length; i++) {
     })
       .then((response) => response.json())
       .then((data) => {
-   // data recieved from server   
-        let percentage = Math.round((data.cancelled / (data.cancelled + data.delivered)) * 100 );
-   // create modal for show data    
+        // data recieved from server
+        let percentage = Math.round(
+          (data.cancelled / (data.cancelled + data.delivered)) * 100
+        );
+        // create modal for show data
         modal.innerHTML = `
         <table>
         <h2 style='text-align:center;background:#fff;margin:0;padding:15px 0px'>Client info </h2>
@@ -106,7 +113,7 @@ for (let i = 1; i < table.rows.length; i++) {
            } 
             </style>
             `;
-           // close button 
+        // close button
         container.style.display = "block";
         const closeButton = document.createElement("span");
         closeButton.setAttribute("class", "close");
@@ -114,23 +121,21 @@ for (let i = 1; i < table.rows.length; i++) {
         closeButton.style.top = "10px";
         closeButton.style.right = "10px";
         closeButton.style.fontSize = "1.40625rem";
-       
-        closeButton.onclick = function(){
-           container.style.display = "none";
-        }    
-        
+
+        closeButton.onclick = function () {
+          container.style.display = "none";
+        };
+
         modal.appendChild(closeButton);
         container.append(modal);
         body.append(container);
       })
       .catch((error) => console.error(error));
-  }); 
+  });
 }
-// close modal when clicked outside modal 
- container.onclick = function (event) {
-  if(event.target===container)
-  {
+// close modal when clicked outside modal
+container.onclick = function (event) {
+  if (event.target === container) {
     container.style.display = "none";
   }
-  };
- 
+};
