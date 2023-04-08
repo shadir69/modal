@@ -1,6 +1,6 @@
 
 .risk_container{
-        display: block;
+        display: none;
         position: fixed;
         z-index: 1;
         left: 0;
@@ -144,7 +144,7 @@
       transform: rotate(1800deg);
     }
   }
-  .show {
+  .risk_container.show {
     display: block;
     animation: modal-show 0.8s ease-in-out;
   }
