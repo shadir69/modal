@@ -112,8 +112,8 @@
 */
 .spinner {
     position:absolute;
-      top:25%; 
-      left: 25%; 
+      bottom:25%; 
+      rigth: 25%; 
       z-index: 999;
       width: 20px;
       height: 20px;
