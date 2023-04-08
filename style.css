@@ -117,9 +117,6 @@
   .lds-hourglass {
    
     position: relative;
-    width: 32px;
-    height: 32px;
- 
   }
   .lds-hourglass:after {
    
@@ -131,7 +128,7 @@
     margin: 8px;
     box-sizing: border-box;
     border: 12px solid currentColor;
-    border-color: currentColor transparent currentColor transparent;
+    border-color: #fbbc05 transparent #fbbc05 transparent;
     animation: lds-hourglass 1.2s infinite;
   }
   @keyframes lds-hourglass {
