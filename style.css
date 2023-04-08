@@ -117,12 +117,12 @@
   .lds-hourglass {
    
     position: relative;
+    width: 32px;
+    height: 32px;
  
   }
   .lds-hourglass:after {
-    position: absolute;
-    bottom: 25%;
-    right: 25%;
+   
     content: " ";
     display: block;
     border-radius: 50%;
