@@ -1,13 +1,14 @@
 
 .risk_container{
-    display: block;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
+        display: block;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 900;
 }
 
 .risk_content{
@@ -109,3 +110,23 @@
   
 }
 */
+.spinner {
+    position:absolute;
+      top: 50%; /* move spinner to the center of the container vertically */
+      left: 50%; /* move spinner to the center of the container horizontally */
+    
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(0, 0, 0, 0.2);
+      border-top-color: #000;
+      border-radius: 50%;
+      animation: spin 1s infinite ;
+    }
+    
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+  
