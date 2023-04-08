@@ -115,12 +115,14 @@
     box-sizing: border-box;
   }
   .lds-hourglass {
-    display: inline-block;
+   
     position: relative;
-    width: 20px;
-    height: 20px;
+ 
   }
   .lds-hourglass:after {
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
     content: " ";
     display: block;
     border-radius: 50%;
@@ -128,7 +130,7 @@
     height: 0;
     margin: 8px;
     box-sizing: border-box;
-    border: 32px solid currentColor;
+    border: 12px solid currentColor;
     border-color: currentColor transparent currentColor transparent;
     animation: lds-hourglass 1.2s infinite;
   }
