@@ -146,7 +146,7 @@
   }
   .risk_container.show {
     display: block;
-    animation: modal-show 0.8s ease-in-out;
+    animation: modal-show 0.3s ease-in-out;
   }
   
   /* Define the animation for showing the modal */
