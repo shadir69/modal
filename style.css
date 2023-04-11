@@ -182,7 +182,7 @@ padding: 8px;
   width: 100%;
 }
 .risk_btn_go p{
- 
+  margin: .5rem !important;
   font-weight: bold;
   margin-right: .8rem;
   font-size: 1.5rem;
