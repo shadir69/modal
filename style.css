@@ -167,6 +167,8 @@ width: 100%;
   cursor: pointer;
   padding: 2px;
   margin-bottom: 1.5rem;
+  outline: none !important;
+
  
 }
 .risk_btn_go div {
