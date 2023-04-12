@@ -235,9 +235,10 @@ background: #fff;
 }
 .risk_link{
   text-align: center;
+  font-size:1rem;
 }
 .risk_link a {
-  color: #fbbc05;
+  color: #fbbc05 !important;
   font-weight: 700;
 }
 
