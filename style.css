@@ -226,6 +226,7 @@ background: #fff;
 }
 
 .risk_btns{
+ cursor: pointer;
   font-weight: bold;
   font-size: 1rem;
   padding:  0.5rem 2.8rem;
@@ -247,6 +248,7 @@ background: #fff;
 }
 .risk_link a {
   color: #fbbc05 !important;
+   cursor: pointer;
   font-weight: 700;
 }
 
