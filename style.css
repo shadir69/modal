@@ -37,6 +37,18 @@
   font-size: 1.40625rem;
   color: #fff;
 }
+.risk_logout{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        color: #000;
+        cursor: pointer;
+        padding: 0.3rem;
+        background-color: #ffffff9d;
+        font-weight: bold;
+      }
 .risk_title {
   font-size: 2rem;
   margin: 0;
