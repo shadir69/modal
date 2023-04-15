@@ -156,10 +156,9 @@
 }
 /*sign up style**************************************/
 .risk_required{
-  background: #9191917c;
   color: #e4ff00;
   display: none; 
-  background: #444;
+  background: #333;
   padding: 5px;
   border-radius:5px;
 }
