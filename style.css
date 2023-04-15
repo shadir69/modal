@@ -37,6 +37,7 @@
   font-size: 1.40625rem;
   color: #fff;
 }
+
 .risk_logout{
         position: absolute;
         top: 10px;
@@ -154,8 +155,16 @@
    align-items: center;
 }
 /*sign up style**************************************/
+.risk_required{
+  background: #9191917c;
+  color: #b60101;
+  display: none; 
+  background: #444;
+  padding: 5px;
+  border-radius:10px;
+}
 
-.risk_wrapper{
+   .risk_wrapper{
   width: 70%;
   margin: 0 auto;
 }
