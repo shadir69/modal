@@ -271,6 +271,19 @@ background: #fff;
    cursor: pointer;
   font-weight: 700;
 }
+  .master_codes{
+      display: flex;
+      align-items: center;
+      margin-top: 1rem;
+      }
+      .master_codes img{
+        width: 32px;
+       margin-right: 0.3rem;
+       border-radius: 50%;
+      }
+      .master_codes span{
+        color: #ccc;
+      }
 
 
 /*media query **********************************/
