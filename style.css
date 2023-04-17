@@ -168,19 +168,23 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     align-items: center;
 }
 .risk_fa_eye{
- position: absolute;
-  top: 50%; 
-  right: 5px; 
-  transform: translateY(-50%);
-  cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-70%);
+    cursor: pointer;
+    width: 1.8rem !important;
+    height: 2rem !important;
 }
 .risk_rememberme input{
   transform: scale(1.4) !important;
-  margin:0 !important;
-  margin-right: 0.3rem !important;
+  margin-block: 0 !important;
+   margin-left: 0.3rem !important;  
 }
 .risk_rememberme label{
-  margin:0 !important;}
+  margin-top:0 !important;
+font-weight: 400 !important;
+}
 
    .risk_wrapper{
   width: 70%;
