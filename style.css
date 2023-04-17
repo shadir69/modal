@@ -179,10 +179,10 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .risk_rememberme input{
   transform: scale(1.4) !important;
   margin-block: 0 !important;
-   margin-left: 0.3rem !important;  
+  margin-inline: 0.3rem !important;  
 }
 .risk_rememberme label{
-  margin-top:0 !important;
+  margin:0 !important;
 font-weight: 400 !important;
 }
 
