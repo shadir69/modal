@@ -44,7 +44,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
         left: 10px;
         border: 1px solid #000;
         border-radius: 5px;
-        color: #000;
+        color: #333 !important;
         cursor: pointer;
         padding: 0.3rem;
         background-color: #ffffff9d;
@@ -320,6 +320,9 @@ background: #fff;
 @media only screen and (max-width: 480px) {
   html {
     font-size: 11px !important;
+  }
+  .risk_title {
+    font-size: 1.5rem;
   }
   .risk_table td{
    width: 30%;
