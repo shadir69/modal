@@ -167,6 +167,13 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     justify-content: space-between;
     align-items: center;
 }
+.risk_fa_eye{
+ position: absolute;
+  top: 50%; 
+  right: 5px; 
+  transform: translateY(-50%);
+  cursor: pointer; /* add curso
+}
 .risk_rememberme input{
   transform: scale(1.4) !important;
   margin:0 !important;
@@ -244,6 +251,7 @@ background: #fff;
   background: #444857;
   margin-bottom: 1rem;
   width: 100%;
+   padding-right:2rem;
 
 }
 .risk_content a{
