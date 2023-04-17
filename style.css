@@ -303,6 +303,8 @@ background: #fff;
       display: flex;
       align-items: center;
       margin-top: 1rem;
+     justify-content: space-between;
+
       }
       .master_codes img{
         width: 32px;
