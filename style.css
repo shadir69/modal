@@ -237,6 +237,8 @@ background: #fff;
 .risk_content a{
   color: #fff;
   text-decoration: none; 
+    cursor: pointer;
+
 }
 
 
