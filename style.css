@@ -184,6 +184,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .risk_rememberme label{
   margin:0 !important;
 font-weight: 400 !important;
+   display: flex;
+  gap:0.2rem;
 }
 
    .risk_wrapper{
@@ -359,6 +361,7 @@ background: #fff;
     justify-content: space-evenly;
   }
   .master_codes img {width:22px;}
+  .risk_rememberme input {transform: scale(1.1) !important;}
 }
   
 @media only screen and (min-width: 481px) and (max-width: 768px) {
