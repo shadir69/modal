@@ -1,5 +1,5 @@
 
-
+.short_text{display:none;}
 .risk_container {
   display: none;
   position: fixed;
@@ -320,6 +320,8 @@ background: #fff;
   html {
     font-size: 11px !important;
   }
+  .short_text{display:block;}
+  .long_text{display:none;}
   .risk_title {
     font-size: 1.5rem;
   }
