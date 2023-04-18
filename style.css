@@ -329,6 +329,7 @@ background: #fff;
 .risk_table td {
  font-size:12px;
 }
+  .risk_progress {font-size:12px;}
   .risk_content {
     width: 80%;
     padding: 0.8rem 1rem;
