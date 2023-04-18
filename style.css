@@ -173,6 +173,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     cursor: pointer;
     width: 1.8rem !important;
     height: 2rem !important;
+  color:#519af3;
 }
 .risk_rememberme input{
   transform: scale(1.4) !important;
