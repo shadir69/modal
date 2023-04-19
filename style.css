@@ -370,6 +370,7 @@ background: #fff;
   .risk_progress img{
     max-width: 30px;
     margin-left: 5px;}
+  .risk_btns { padding: 0.5rem 1rem;}
 }
   
 @media only screen and (min-width: 481px) and (max-width: 768px) {
