@@ -369,7 +369,7 @@ background: #fff;
   .risk_progress {font-size:12px;}
   .risk_progress img{ max-width: 30px; margin-left: 5px;}
   .risk_btns { padding: 0.5rem 1rem;}
-  .risk_check input{ margin-right: 5px;transform: scale(1.1) !important;}
+  .risk_check input{margin:0 !important; margin-right: 5px !important;transform: scale(1.1) !important;}
 }
   
 @media only screen and (min-width: 481px) and (max-width: 768px) {
