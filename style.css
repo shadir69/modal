@@ -309,6 +309,7 @@ background: #fff;
       .master_codes span{
         color: #ccc;
       }
+.risk_check input{margin-inline: 0.3rem 1rem;transform: scale(1.7);}
 
 
 /*media query **********************************/
