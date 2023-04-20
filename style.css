@@ -322,11 +322,6 @@ background: #fff;
   .risk_title {
     font-size: 1.5rem;
   }
- .risk_table th,
-.risk_table td {
- font-size:12px;
-}
-
   .risk_content {
     width: 80%;
     padding: 0.8rem 1rem;
